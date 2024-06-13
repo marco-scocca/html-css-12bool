@@ -90,3 +90,47 @@ body {
     align-items: center;
     display: flex;
 }
+
+.nested-2-col {
+    flex-basis: calc((100%/12)*2);
+    background-color: green;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+    border-right: 1px solid blue;
+    border-bottom: 5px solid blue;
+
+    height: 80px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.nested-8-col {
+    flex-basis: calc((100%/12)*8);
+    background-color: green;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+    border-right: 15px solid blue;
+    border-bottom: 5px solid blue;
+    height: 80px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+
+.nested-6-col {
+    flex-basis: calc((100%/12)*6);
+    background-color: green;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+    border-right: 15px solid blue;
+    border-bottom: 5px solid blue;
+    height: 80px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
