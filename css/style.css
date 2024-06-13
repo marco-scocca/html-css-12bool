@@ -134,3 +134,67 @@ body {
     align-items: center;
     display: flex;
 }
+
+.margin-50 {
+    margin-top: 50px;
+}
+
+.col-11 {
+    flex-basis: calc((100%/12)*11);
+    background-color: blue;
+    border: solid white;
+
+    height: 100px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.col-10 {
+    flex-basis: calc((100%/12)*10);
+    background-color: blue;
+    border: solid white;
+
+    height: 100px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.col-3 {
+    flex-basis: calc((100%/12)*3);
+    background-color: blue;
+    border: solid white;
+
+    height: 100px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.col-4 {
+    flex-basis: calc((100%/12)*4);
+    background-color: blue;
+    border: solid white;
+
+    height: 100px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.col-9 {
+    flex-basis: calc((100%/12)*9);
+    background-color: blue;
+    border: solid white;
+
+    height: 100px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
