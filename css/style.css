@@ -20,6 +20,14 @@ body {
     flex-direction: row;
 }
 
+
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+
+
+
 .col-1 {
     flex-basis: calc(100%/12);
     background-color: blue;
@@ -197,4 +205,11 @@ body {
     color: white;
     align-items: center;
     display: flex;
+}
+
+
+@media screen and (max-width: 480px) {
+    [class*="col-"] {
+        flex: 0 0 calc((100%/12)*12);
+    }
 }
